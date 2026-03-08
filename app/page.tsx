@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const page = () => {
-  return <p className="text-3xl text-indigo-500">CoinPulse</p>
-}
+const Page = () => {
+  return <div></div>
+};
 
-export default page
+export default Page;
