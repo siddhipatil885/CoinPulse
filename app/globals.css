@@ -142,12 +142,17 @@
 }
 
 @layer base {
-  * {
-    @apply outline-none;
-  }
-
   body {
     @apply bg-dark-700 text-foreground;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
   }
 }
 @layer components {
@@ -193,7 +198,7 @@
         }
 
         .nav-link.is-active {
-          @apply text-white;
+          @apply text-purple-100;
         }
 
         .nav-link.is-home {

@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/" className="flex items-center gap-3">
           
           <Image
-            src="logo.svg"
+            src="/logo.svg"
             alt="CoinPulse Logo"
             width={40}
             height={40}
